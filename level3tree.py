@@ -35,6 +35,8 @@ try:
                     continue
             elif province == 'q':
                 sys.exit(0)
+            else:
+                print("Cannot find this province name.")
         elif country == 'b':
             if provinceBefo:
                 print(provinceBefo)
